@@ -1,6 +1,6 @@
 # Human Action Recognition Pytorch LSTM
 - In this repository, you'll find a notebook, with an LSTM as the model and it was trained on the MHAD dataset.
-- Instead of feeding raw images to our model, we will feed it time series like data, more precisely. We used openpose on a dataset of images, while it was generating the images with the skeleton overlay on it 
+- Instead of feeding raw images to our model, we will feed it with time series data. We used openpose on a dataset of images because we needed pose estimatin and it's one of the module that allows us to realize that.
 
 As you can see on the image below, we have a tenisman
 ![Tenis](COCO_tenis.jpg)
