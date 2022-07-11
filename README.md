@@ -32,7 +32,3 @@ First of all, a large part of this internship has been devoted to research and i
 <figure class="video_container">
   <iframe src="https://drive.google.com/file/d/1zcemrxp1Vv-lDzA1qlkuvgYg3ZxhtY0M/preview" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/0B6m34D8cFdpMZndKTlBRU0tmczg/preview" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
