@@ -3,6 +3,7 @@
 - Instead of feeding raw images to our model, we will feed it with time series data. We used openpose on a dataset of images because we needed pose estimatin and it's one of the module that allows us to realize that.
 
 As you can see on the image below, we have a tenisman
+
 ![Tenis](COCO_tenis.jpg)
 
 Now after running openpose on this image, we have:
