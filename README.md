@@ -29,6 +29,4 @@ The input for the LSTM is the 2D position of 18 joints across a timeseries of fr
 
 First of all, a large part of this internship has been devoted to research and its only after 2 months of researching this subject that  was able to have my first results. 
 
-![Video_render](examples_video.mp4)
 
-[![Openpose Video]({https://drive.google.com/file/d/1H_IdKhKWcWbJks6toDUlgpotHEOdAQpC/view?usp=sharing})]({https://drive.google.com/file/d/1zcemrxp1Vv-lDzA1qlkuvgYg3ZxhtY0M/view?usp=sharing} "Video")
