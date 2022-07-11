@@ -29,4 +29,4 @@ The input for the LSTM is the 2D position of 18 joints across a timeseries of fr
 
 First of all, a large part of this internship has been devoted to research and its only after 2 months of researching this subject that  was able to have my first results. 
 
-![](https://github.com/mmouhasylla/human-action-recognition-pytorch-lstm/blob/eb1e631e1119d85b6fd41179ad609dd8f647a76b/output%20(1).mp4
+![](output(1).mp4)
