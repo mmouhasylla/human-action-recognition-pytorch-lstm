@@ -23,3 +23,8 @@ This dataset is comprised of 12 subjects doing the following 5 actions for 5 rep
 - extracting drawers and shelves
 
 The input for the LSTM is the 2D position of 18 joints across a timeseries of frames numbering n_steps (window-width), with an associated class label for the frame series.
+
+## Choices of our model
+
+First of all, a large part of this internship has been devoted to research and its only after 2 months of researching this subject that  was able to have my first results. 
+
