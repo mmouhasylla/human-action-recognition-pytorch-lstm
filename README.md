@@ -38,4 +38,4 @@ After training our model, we decided to take it to the next step which was to tr
 
 Now , we needed to un openpose on a directory full of our images and get the skeleton keypoints. Then we can send them to our network and train like they are doing in the repository i mentionned earlier. 
 
-![skeleton_render](frame0019.jpg)
+![skeleton_render](frame0019_rendered.png)
