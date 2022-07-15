@@ -37,3 +37,5 @@ As our project focus on increasing the safety of human operators in collaborativ
 After training our model, we decided to take it to the next step which was to train it with our own dataset. In order to have a wide set of data which we can use, we set up our own protocol of test. It consisted in, 3 cameras from 3 different angles, 3 subjects realizing two sets of actions (opening the door and closing the door) and each of them repeating the same action 5 times. We had a total of 2632 frames. 
 
 Now , we needed to un openpose on a directory full of our images and get the skeleton keypoints. Then we can send them to our network and train like they are doing in the repository i mentionned earlier. 
+
+![skeleton_render](frame0019.jpg)
