@@ -40,4 +40,4 @@ Now , we needed to un openpose on a directory full of our images and get the ske
 
 ![skeleton_render](frame0019_rendered.png)
 
-This is me realizing the action of closing the door of a fridge (it's one of the last frames).
+This is one of the subjects realizing the action of closing the door of a fridge (it's one of the last frames).
