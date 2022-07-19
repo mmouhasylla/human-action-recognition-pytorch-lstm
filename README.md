@@ -41,3 +41,9 @@ Now , we needed to un openpose on a directory full of our images and get the ske
 ![skeleton_render](frame0019_rendered.png)
 
 This is one of the subjects realizing the action of closing the door of a fridge (it's one of the last frames).
+
+We made some choices, we decided to start with something simple and then increasing the difficulty. For example, as i said earlier, we had 3 cameras positioned in different angles. That resulted in the presence of oclusion on certain frames, the presence of two skeletons on the frames taken by the camera that was on the ceiling. So we decided to firstly go with the two other cameras positioned on the sides(right and left).
+
+Thanks to a notebook i found on the internet, i was able to run openpose on the different frames we took, on top of that, i can also save the skeleton keypoints in a csv file , the labels also are saved in another csv file.
+
+> Labels {"CLOSE": 0, "OPEN":1}
