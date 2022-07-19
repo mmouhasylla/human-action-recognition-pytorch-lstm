@@ -47,3 +47,5 @@ We made some choices, we decided to start with something simple and then increas
 Thanks to a notebook i found on the internet, i was able to run openpose on the different frames we took, on top of that, i can also save the skeleton keypoints in a csv file , the labels also are saved in another csv file.
 
 > Labels {"CLOSE": 0, "OPEN":1}
+
+![2skeletons_render](2_skeletons.png)
