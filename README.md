@@ -47,8 +47,10 @@ We made some choices, we decided to start with something simple and then increas
 > Labels {"CLOSE": 0, "OPEN":1}
 
 Below you can see a picture taken by the camera on the ceiling, we have a little problem; It's all because we have two skeletons , even with the flag
+
 > number_people_max 1
-we can't be sure which of the skeletons will be recognise. On certain pictures, it only recognise the subject and on others and on others, it recognise the second person helping for the acquisition of the videos with rosbag and the different topics related to the three cameras. It's because of this that we decided to go slowly. 
+
+We can't be sure which of the skeletons will be recognise. On certain pictures, it only recognise the subject and on others and on others, it recognise the second person helping for the acquisition of the videos with rosbag and the different topics related to the three cameras. It's because of this that we decided to go slowly. 
 
 ![2skeletons_render](2_skeletons.png)
 
