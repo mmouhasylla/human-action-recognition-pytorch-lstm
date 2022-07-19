@@ -38,13 +38,16 @@ After training our model, we decided to take it to the next step which was to tr
 
 Now , we needed to un openpose on a directory full of our images and get the skeleton keypoints. Then we can send them to our network and train like they are doing in the repository i mentionned earlier. 
 
-![skeleton_render](frame0019_rendered.png)
-
 This is one of the subjects realizing the action of closing the door of a fridge (it's one of the last frames).
 
-We made some choices, we decided to start with something simple and then increasing the difficulty. For example, as i said earlier, we had 3 cameras positioned in different angles. That resulted in the presence of oclusion on certain frames, the presence of two skeletons on the frames taken by the camera that was on the ceiling. So we decided to firstly go with the two other cameras positioned on the sides(right and left). Thanks to a notebook i found on the internet, i was able to run openpose on the different frames we took. 
+![skeleton_render](frame0019_rendered.png)
+
+
+We made some choices, we decided to start with something simple and then increasing the difficulty. For example, as i said earlier, we had 3 cameras positioned in different angles. That resulted in the presence of oclusion on certain frames, the presence of two skeletons on the frames taken by the camera that was on the ceiling. So we decided to firstly go with the two other cameras positioned on the sides(right and left).
 
 > Labels {"CLOSE": 0, "OPEN":1}
+
+Thanks to a notebook i found on the internet, i was able to run openpose on the different frames we took. I was able to transform certain block of code in functions with loops and that allowed me to iterate over all the differents repertories containing the frames. 
 
 Below you can see a picture taken by the camera on the ceiling, we have a little problem; It's all because we have two skeletons , even with the flag
 
