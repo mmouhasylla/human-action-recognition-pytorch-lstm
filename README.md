@@ -42,10 +42,17 @@ Now , we needed to un openpose on a directory full of our images and get the ske
 
 This is one of the subjects realizing the action of closing the door of a fridge (it's one of the last frames).
 
-We made some choices, we decided to start with something simple and then increasing the difficulty. For example, as i said earlier, we had 3 cameras positioned in different angles. That resulted in the presence of oclusion on certain frames, the presence of two skeletons on the frames taken by the camera that was on the ceiling. So we decided to firstly go with the two other cameras positioned on the sides(right and left).
-
-Thanks to a notebook i found on the internet, i was able to run openpose on the different frames we took, on top of that, i can also save the skeleton keypoints in a csv file , the labels also are saved in another csv file.
+We made some choices, we decided to start with something simple and then increasing the difficulty. For example, as i said earlier, we had 3 cameras positioned in different angles. That resulted in the presence of oclusion on certain frames, the presence of two skeletons on the frames taken by the camera that was on the ceiling. So we decided to firstly go with the two other cameras positioned on the sides(right and left). Thanks to a notebook i found on the internet, i was able to run openpose on the different frames we took, on top of that, i can also save the skeleton keypoints in a csv file , the labels also are saved in another csv file.
 
 > Labels {"CLOSE": 0, "OPEN":1}
 
+Below you can see a picture taken by the camera on the ceiling, we have a little problem; It's all because we have two skeletons , even with the flag
+> number_people_max 1
+we can't be sure which of the skeletons will be recognise. On certain pictures, it only recognise the subject and on others and on others, it recognise the second person helping for the acquisition of the videos with rosbag and the different topics related to the three cameras. It's because of this that we decided to go slowly. 
+
 ![2skeletons_render](2_skeletons.png)
+
+
+I generate a csv file in the format:
+> [x0,y0,x1,y2 ... x17,y17] -> we have 18 keypoints because we use the COCO model instead of the BODY_25.
+
