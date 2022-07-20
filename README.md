@@ -62,3 +62,7 @@ We can also save the skeleton keypoints in a csv file , the labels also are save
 
 > [x0,y0,x1,y2 ... x17,y17] -> we have 18 keypoints because we use the COCO model instead of the BODY_25 (https://cocodataset.org/#home).
 
+At first, i generated 2 different file with my 2 different actions, meaning each action had a posefile (where i stored the skeleton keypoints) and a label file. Afterwards, i realized that i needed to split the data (training and validation datas). In order to make that a good training and validation set, i made choices of which values would be use in each cases :
+
+> 
+
