@@ -69,3 +69,7 @@ At first, i generated 2 different file with my 2 different actions, meaning each
 Considering validation, we have these numbers:
 
 >  Number of test values:- 584 // Number of labels:- 584
+
+I haven't finished this readme yet and i am deeply sorry to all of my fellow computer vision enthusiast that got stuck and found it. 
+I was doing this work for an internship and i wasn't able to go beyond what you are seeing above. 
+I'll try to finish it and push the last version of the notebook that i had
